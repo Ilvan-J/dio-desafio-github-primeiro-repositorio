@@ -42,4 +42,22 @@ cat ~/.bashrc
 java -version
 ```
 
+# IDE Intellij 
 
+**1.** Entrar no site intellij
+
+**2.** Escolher a versão comunity para ubuntu.
+
+**3.** Descompactar a pasta e abrir o terminal.
+
+**4.** Entrar na pasta descompactada.
+
+```console
+cd Downloads/IdealC
+```
+
+**6.** Executar o arquivo de instalação
+
+```console
+./idea.sh
+```
