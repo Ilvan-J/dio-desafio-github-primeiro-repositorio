@@ -77,5 +77,24 @@ public class ExemploList {
         System.out.println(notas);
         System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
 
+        //LinkedList:
+        System.out.println("Crie uma lista chamada notas2" +
+                "e coloque todos os elementos da ArrayList nessa nova lista:");
+        LinkedList<Double> notas2 = new LinkedList<>();
+//        7, 8.5, 9.3, 5, 7, 0, 3.6
+        notas2.add(7d);
+        notas2.add(8.5);
+        notas2.add(9.3);
+        notas2.add(5d);
+        notas2.add(7d);
+        notas2.add(0d);
+        notas2.add(3.6);
+        System.out.println(notas2);
+
+        System.out.println("Mostre a primeira nota da nova lista sem removê-lo: " + notas2.get(0));
+
+        System.out.println("Mostre a primeira nota da nova lista removendo-o: " + notas2.remove(0));
+        System.out.println(notas2);
+        
     }
 }
