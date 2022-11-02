@@ -90,7 +90,8 @@ public class Main {
         System.out.println(carrosPopulares);
         
         System.out.println("Exiba todos os carros na ordem em que foram informados: ");
-        Map<String, Double> carrosPopulares1 = new LinkedHashMap(){{
+        //Map<String, Double> carrosPopulares1 = new LinkedHashMap<>();// não funciona no jdk 8
+        Map<String, Double> carrosPopulares1 = new LinkedHashMap<>(){{
                 put("gol", 14.4);
                 put("uno", 15.6);
                 put("mobi", 16.1);
@@ -101,7 +102,8 @@ public class Main {
         System.out.println(carrosPopulares1.toString());
         
         System.out.println("Exiba o dicionário ordenado pelo modelo");
-        Map<String, Double> carrosPopulares2 = new TreeMap(carrosPopulares1);
+        //Map<String, Double> carrosPopulares2 = new TreeMap<>(); // não funciona no jdk 8
+        Map<String, Double> carrosPopulares2 = new TreeMap<>(carrosPopulares1);
         System.out.println(carrosPopulares2.toString());
         
         System.out.println("Apague o dicionário de carros: ");
