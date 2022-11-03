@@ -1,12 +1,8 @@
 package br.com.dio.collections.map;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
-public class Main {
+public class ExemploMap {
     
     public static void main(String[] args) {
         /*
