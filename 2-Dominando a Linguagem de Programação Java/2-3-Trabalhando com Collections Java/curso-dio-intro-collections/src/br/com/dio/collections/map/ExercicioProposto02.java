@@ -6,6 +6,13 @@ import java.util.Random;
 
 public class ExercicioProposto02 {
     public static void main(String[] args) {
+
+        /*
+          Faça um programa que simule um lançamento de dados.
+          Lance o dado 100 vezes e armazene.
+          Depois, mostre quantas vezes cada valor foi inserido.
+         */
+
         Random random = new Random();
         Map<String, Integer> dados = new HashMap<>();
 
@@ -18,7 +25,7 @@ public class ExercicioProposto02 {
             }
         }
 
-        for (Map.Entry<String, Integer> dado: dados.entrySet())
+        for (Map.Entry<String, Integer> dado : dados.entrySet())
             System.out.printf("\nValor %s foi inserido %d vezes", dado.getKey(), dado.getValue());
 
     }
