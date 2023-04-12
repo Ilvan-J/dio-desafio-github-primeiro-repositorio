@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="one.digitalinnovationon.junit.PessoaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-08T12:34:04" hostname="LAPTOP-BSEC9H6L" time="0.098">
+  <properties/>
+  <testcase name="validarCaluloDeIdade()" classname="one.digitalinnovationon.junit.PessoaTest" time="0.098"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
